@@ -1,13 +1,9 @@
 #include <stdio.h>
 
-char* welcome() {
+int main() {
     int a;
     scanf("%d",&a);
-    return ("You entered: %d",a);
-}
 
-int main() {
-    string z=welcome();
-    printf("%s", z);
+    printf("You entered: %s",a);
     return 0;
 }
