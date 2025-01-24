@@ -3,7 +3,7 @@
 char* welcome() {
     float a;
     scanf("%f",&a);
-    return ("You entered: %f",a);
+    return ("%f",a);
 }
 
 int main() {
