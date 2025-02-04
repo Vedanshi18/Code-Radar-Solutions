@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-
+#include <type.h>
 int main() {
     char a;
     char b;
