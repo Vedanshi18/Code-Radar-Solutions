@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char a[1];
+    char a;
     int b;
     scanf("%c",&a);
     b=(int)a;
