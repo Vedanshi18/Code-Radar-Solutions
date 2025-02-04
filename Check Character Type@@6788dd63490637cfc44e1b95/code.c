@@ -14,7 +14,7 @@ int main() {
         }
     }
     else{
-        if ((a>=0)&&(a<=9)){
+        if ((a>=48)&&(a<=57)){
             printf("Digit");
         }
         else{
