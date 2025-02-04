@@ -6,7 +6,7 @@ int main() {
     scanf("%c",&a);
     if (isalpha(a)){
         b=tolower(a);
-        if(a=='a' || a == 'e' || a == 'i' || a == 'o' || a == 'u'){
+        if(b=='a' || b == 'e' || b == 'i' || b == 'o' || b == 'u'){
             printf("Vowel");
         }
         else{
