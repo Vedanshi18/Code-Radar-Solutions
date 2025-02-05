@@ -7,10 +7,10 @@ int main() {
         if (n%i==0) {c++;}
     }
     if (c>2){
-        printf("Prime");
+        printf("Not Prime");
     }
     else{
-        printf("Not Prime");
+        printf("Prime");
     }
     return 0;
 }
