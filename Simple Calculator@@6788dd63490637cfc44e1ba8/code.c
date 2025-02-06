@@ -2,7 +2,7 @@
 int main() {
     int a,b;
     char op;
-    scanf("%d%d %c",&a,&b,&op);
+    scanf("%d%d %c",&a,&b,&op);   //Space is required to skip whitespace between int and char
     switch(op){
         case '+':
         printf("%d",a+b);
