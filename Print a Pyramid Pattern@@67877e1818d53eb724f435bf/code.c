@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main() {
-    int i=1,j;
-    while(i<=3){
+    int i=1,j,N;
+    scanf("%d",&N);
+    while(i<=N){
         j=1;
         while(j<=5){
             if(j<=(3-i)){
