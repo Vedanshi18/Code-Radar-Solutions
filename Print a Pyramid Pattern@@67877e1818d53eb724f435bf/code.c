@@ -4,7 +4,7 @@ int main() {
     scanf("%d",&N);
     while(i<=N){
         j=1;
-        while(j<=5){
+        while(j<=N){
             if(j<=(3-i)){
             printf(" ");
             }
