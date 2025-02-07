@@ -8,7 +8,7 @@ int main() {
             if(j<=(N-i)){
             printf(" ");
             }
-            else if(j>(N-i) && j<=(N+i-1)){
+            else if(j>(N-i) || j<=(N+i-1)){
                 printf("*");
             }
             else{
