@@ -5,10 +5,10 @@ int main() {
     while(i<=N){
         j=1;
         while(j<=N){
-            if(j<=(3-i)){
+            if(j<=(N-i)){
             printf(" ");
             }
-            else if(j>(3-i) && j<=(3+i-1)){
+            else if(j>(N-i) && j<=(N+i-1)){
                 printf("*");
             }
             else{
