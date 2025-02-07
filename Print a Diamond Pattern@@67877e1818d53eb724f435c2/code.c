@@ -7,9 +7,9 @@ int main() {
             if(j<=n-i || j>=n+i){
                 printf(" ");
             }
-            else(
+            else{
                 printf("*");
-            )
+                }
         }
         printf("\n");
     }
