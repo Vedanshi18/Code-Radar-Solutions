@@ -13,6 +13,9 @@ int main() {
                 if (j==1 || j==N){
                     printf("* ");
                 }
+                else{
+                    printf(" ");
+                }
             }
         }
         printf("\n");
