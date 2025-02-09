@@ -13,7 +13,7 @@ int main() {
         }
         for (j=1; j<=i; j++){
             printf("%d ",k);
-            k=~k;
+            k=k^1;
         }
         printf("\n");
     }
