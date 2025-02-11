@@ -1,13 +1,5 @@
 #include<stdio.h>
-int main(){
-    int t;
-    scanf("%d",&t);
-    while(t--){
-        int n;
-        scanf("%d",&n);
-        printf("%d\n",isPrime(n));
-    }
-}
+
 int isPrime(n){
     int c=0;
     for (int j=1; j<=n; j++){
@@ -21,4 +13,13 @@ int isPrime(n){
     else{ 
         return 1;
         }
+}
+int main(){
+    int t;
+    scanf("%d",&t);
+    while(t--){
+        int n;
+        scanf("%d",&n);
+        printf("%d\n",isPrime(n));
+    }
 }
