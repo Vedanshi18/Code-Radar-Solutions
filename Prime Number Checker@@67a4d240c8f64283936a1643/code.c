@@ -18,7 +18,7 @@ int isPrime(n){
     if(c>2){
             return 0;
         }
-        else{ 
-            return 1;
-            }
+    else{ 
+        return 1;
+        }
 }
