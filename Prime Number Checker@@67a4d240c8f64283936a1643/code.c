@@ -1,8 +1,8 @@
 #include <stdio.h>
-int isPrime(int a){
+int isPrime(int num){
     int c=0;
-    for (int j=1; j<=a; j++){
-        if (a%j==0){
+    for (int j=1; j<=num; j++){
+        if (num%j==0){
             c++;
         }
     }
