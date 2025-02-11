@@ -14,11 +14,11 @@ int isPrime(n){
         if (n%j==0){
             c++;
         }
-        if(c>2){
+    }
+    if(c>2){
             return 0;
         }
         else{ 
             return 1;
             }
-    }
 }
