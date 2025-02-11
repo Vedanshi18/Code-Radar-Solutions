@@ -2,6 +2,10 @@
 int isPrime(int num){
     int c=0;
     for (int j=1; j<=num; j++){
+        if(num==1){
+            return 0;
+            break;
+        }
         if (num%j==0){
             c++;
         }
@@ -11,6 +15,5 @@ int isPrime(int num){
         }
     else{ 
         return 1;
-        }
-
+    }
 }
