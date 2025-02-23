@@ -13,24 +13,18 @@
 // }
 
 #include <stdio.h>
-
-int countLeadingZeros(int n) {
-    if (n == 0) return 32; // All bits are zero
-
-    int count = 0;
+int main() {
+    int n,c=0;
+    scanf("%d", &n);
+    if(n==0){
+        printf("32");
+    }
+    else{
     for (int i = 31; i >= 0; i--) { // Check each bit from the left
         if ((n >> i) & 1) break;    // Stop when the first set bit is found
-        count++;
+        c++;
     }
-    return count;
-}
-
-int main() {
-    int n;
-    scanf("%d", &n);
-
-    int res = countLeadingZeros(n);
-    printf("%d",res);
-
+    printf("%d",c);
+    }
     return 0;
 }
