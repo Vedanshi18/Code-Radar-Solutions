@@ -4,7 +4,7 @@ int main()
     int n,b,c=0;
     scanf("%d%d",&n,&b);
     n=n&(-n);
-    while(n){
+    while(n>1){
         n=n>>1;
         c++;
     }
