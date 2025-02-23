@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int n,b,c=32;
-    scanf("%d%d",&n,&b);
+    int n,c=32;
+    scanf("%d",&n);
 
     while(n){
         n=n>>1;
