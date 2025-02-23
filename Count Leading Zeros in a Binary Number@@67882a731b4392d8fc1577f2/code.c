@@ -21,7 +21,8 @@ int main() {
     }
     else{
     for (int i = 31; i >= 0; i--) { // Check each bit from the left
-        if ((n >> i) & 1) break;    // Stop when the first set bit is found
+        if ((n >> i) & 1) 
+        break;    // Stop when the first set bit is found
         c++;
     }
     printf("%d",c);
