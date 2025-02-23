@@ -30,7 +30,7 @@ int main() {
     scanf("%d", &n);
 
     int result = countLeadingZeros(n);
-    printf("Number of leading zeros: %d\n", result);
+    printf("%d",n);
 
     return 0;
 }
