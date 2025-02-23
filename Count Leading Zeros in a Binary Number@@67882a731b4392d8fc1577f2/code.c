@@ -29,8 +29,8 @@ int main() {
     int n;
     scanf("%d", &n);
 
-    int result = countLeadingZeros(n);
-    printf("%d",n);
+    int res = countLeadingZeros(n);
+    printf("%d",res);
 
     return 0;
 }
