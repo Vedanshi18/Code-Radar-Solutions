@@ -3,7 +3,6 @@ int main(){
     int n,pos;
     scanf("%d%d",&n,&pos);
     int a=1<<pos;
-    n=n|a;
-    printf("%d",n);
+    printf("%d",n|a);
     return 0;
 }
