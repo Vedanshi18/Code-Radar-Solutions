@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int num,rem,place=1,bin=0;
+    int num,rem,place=1;
+    long bin=0
     scanf("%d",&num);
     while(num){
         rem=num%2;
