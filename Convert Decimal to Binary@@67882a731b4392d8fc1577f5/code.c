@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    long num,rem,place=1, bin=0;
+    long num,rem,place=1, bin=0; //Long datatype as int couldnt handle binary for larger numbers
     scanf("%d",&num);
     while(num){
         rem=num%2;
