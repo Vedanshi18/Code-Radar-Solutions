@@ -7,6 +7,7 @@ int main()
         rem=num%2;
         bin=bin+(rem*place);
         num=num/2;
+        place=place*10;
     }
     printf("%d",bin);
     return 0;
