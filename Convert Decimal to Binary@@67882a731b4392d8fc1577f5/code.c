@@ -8,6 +8,6 @@ int main()
         bin=bin+(rem*place);
         num=num/2;
     }
-    printf("%d",rem);
+    printf("%d",bin);
     return 0;
 }
