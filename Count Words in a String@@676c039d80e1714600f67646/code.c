@@ -7,7 +7,8 @@ int main(){
     int c=0;
     for (int i=0; i<l;i++){
         char ch=s[i];
-        if (ch==' ') c++;
+        if (ch==' ') 
+        c++;
     }
     printf("%d",c);
 }
