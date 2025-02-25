@@ -11,5 +11,5 @@ int main(){
             c++;
         }
     }
-    printf("%d",c);
+    printf("%d",s);
 }
