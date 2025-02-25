@@ -15,18 +15,17 @@ int main() {
         i++;
     }
 
-    // Count words separated by spaces
+    // Count words
+    if (s[i] != '\0') {  // Count the first word if the string is not empty
+        c = 1;
+    }
+
     for (; s[i] != '\0'; i++) {
         if (s[i] == ' ' && s[i + 1] != ' ' && s[i + 1] != '\0') {
             c++;
         }
     }
 
-    // If the string is not empty, count the first word
-    if (strlen(s) > 0 && s[0] != '\0' && s[0] != ' ') {
-        c++;
-    }
-
-    printf("%d", c);
+    printf("%d\n", c);
     return 0;
 }
