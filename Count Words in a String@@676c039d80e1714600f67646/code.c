@@ -9,5 +9,5 @@ int main(){
         char ch=s[i];
         if (ch==' ') c++;
     }
-    printf("%d",c;)
+    printf("%d",c);
 }
