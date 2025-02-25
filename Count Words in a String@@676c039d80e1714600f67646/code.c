@@ -5,7 +5,7 @@ int main(){
     fgets(s,sizeof(s),stdin);
     int l=strlen(s);
     int c=0;
-    for (int i=0; i<l;i++){
+    for (int i=0; s[i]!='\0';i++){
         char ch=s[i];
         if (ch==' ') {
             c++;
