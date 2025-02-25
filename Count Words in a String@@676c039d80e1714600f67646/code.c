@@ -5,7 +5,6 @@ int main() {
     char s[100];
     int c = 0;
 
-    printf("Enter a string: ");
     fgets(s, sizeof(s), stdin);
     s[strcspn(s, "\n")] = '\0'; // Remove newline character
 
