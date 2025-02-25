@@ -11,7 +11,7 @@ int main(){
         k--;
     }
     n[l]='\0';
-    if n==s{
+    if (n==s){
         printf("Yes");
     }
     else printf("No");
