@@ -28,6 +28,6 @@ int main() {
         c++;
     }
 
-    printf("Number of words: %d\n", c);
+    printf("%d", c);
     return 0;
 }
