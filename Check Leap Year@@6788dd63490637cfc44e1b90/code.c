@@ -30,9 +30,9 @@ int main() {
     if (y % 4 == 0) {
         if (y % 100 == 0) {
             if (y % 400 == 0) {
-                printf("Leap year\n");
+                printf("Leap Year");
             } else {
-                printf("Not a leap year\n");
+                printf("Not a Leap Year");
             }
         } else {
             printf("Leap Year");
