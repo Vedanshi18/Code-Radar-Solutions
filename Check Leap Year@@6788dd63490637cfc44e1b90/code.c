@@ -25,7 +25,6 @@
 
 int main() {
     int y;
-    printf("Enter the year: ");
     scanf("%d", &y);  // Use '&y' to store the input value in 'y'
 
     // Check if the year is a leap year
@@ -37,10 +36,10 @@ int main() {
                 printf("Not a leap year\n");
             }
         } else {
-            printf("Leap year\n");
+            printf("Leap year");
         }
     } else {
-        printf("Not a leap year\n");
+        printf("Not a Leap Year");
     }
 
     return 0;
