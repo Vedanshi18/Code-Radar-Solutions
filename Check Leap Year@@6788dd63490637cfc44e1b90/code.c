@@ -27,7 +27,6 @@ int main() {
     int y;
     scanf("%d", &y);  // Use '&y' to store the input value in 'y'
 
-    // Check if the year is a leap year
     if (y % 4 == 0) {
         if (y % 100 == 0) {
             if (y % 400 == 0) {
