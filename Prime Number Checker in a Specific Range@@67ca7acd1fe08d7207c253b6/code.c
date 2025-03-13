@@ -5,6 +5,7 @@ int isPrime(int num){
     for (int i=3; i<=num; i=i+2){
         if (num%i==0) return 0;
     }
+    return 1;
 }
 void printPrimesInRange(int a, int b){
     int found=0;
