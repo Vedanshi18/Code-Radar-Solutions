@@ -1,7 +1,7 @@
 int nTerm(int n){
     if(n==0) return 0;
     if(n==1) return 1;
-    for (int i=1; i<=n-2; i++){
+    for (int i=1; i<=n-1; i++){
         return nTerm(n-1)+nTerm(n-2);
     }
 }
