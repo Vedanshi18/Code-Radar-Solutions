@@ -1,6 +1,6 @@
 void fibonacciSeries(int n){
     for (int i=1; i<=n; i++){
-        printf("%d ",nTerm(n));
+        printf("%d ",nTerm(i));
     }
 }
 int nTerm(int n){
