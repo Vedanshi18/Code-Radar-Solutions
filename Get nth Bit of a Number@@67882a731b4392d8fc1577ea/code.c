@@ -10,7 +10,7 @@ int main()
     // else{
     //     printf("0");
     // }
-        if(n^1){
+        if(n^1==0){
         printf("1");
     }
     else{
